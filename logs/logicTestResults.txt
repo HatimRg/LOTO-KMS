@@ -1,0 +1,48 @@
+================================================================================
+LOTO KMS - LOGIC TEST RESULTS
+================================================================================
+Generated: 2025-10-31T08:25:53.797Z
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total Tests: 15
+Passed: 13 ✅
+Failed: 2 ❌
+Duration: 5.23s
+Success Rate: 86.7%
+
+DETAILED RESULTS
+--------------------------------------------------------------------------------
+✅ Test #1: Database Connection
+   Expected: Should connect successfully
+   Result: PASS
+   Time: 2025-10-31T08:25:53.795Z
+
+✅ Test #2: Add Breaker
+   Expected: Should create new breaker
+   Result: PASS
+   Time: 2025-10-31T08:25:53.797Z
+
+ERRORS DETECTED
+--------------------------------------------------------------------------------
+1. Missing export: testFunction
+   Type: Function
+   Location: utils/helper.js
+   Fixable: YES
+
+PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+Read Breakers: 45ms
+Write Breaker: 123ms
+
+STRESS TEST RESULTS
+--------------------------------------------------------------------------------
+Total Records: 100
+Successful: 98
+Failed: 2
+Duration: 2500ms
+Average Time: 25.00ms per record
+
+================================================================================
+END OF REPORT
+================================================================================

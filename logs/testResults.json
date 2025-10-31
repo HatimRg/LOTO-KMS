@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "total": 15,
+    "passed": 13,
+    "failed": 2,
+    "duration": 5234,
+    "successRate": 86.7
+  },
+  "results": [
+    {
+      "id": 1,
+      "name": "Database Connection",
+      "expected": "Should connect successfully",
+      "result": "PASS",
+      "error": null,
+      "timestamp": "2025-10-31T08:25:53.795Z"
+    },
+    {
+      "id": 2,
+      "name": "Add Breaker",
+      "expected": "Should create new breaker",
+      "result": "PASS",
+      "error": null,
+      "timestamp": "2025-10-31T08:25:53.797Z"
+    }
+  ],
+  "errors": [
+    {
+      "type": "Function",
+      "description": "Missing export: testFunction",
+      "location": "utils/helper.js",
+      "fixable": true,
+      "timestamp": "2025-10-31T08:25:53.797Z"
+    }
+  ],
+  "fixed": [],
+  "performance": [
+    {
+      "operation": "Read Breakers",
+      "time": 45
+    },
+    {
+      "operation": "Write Breaker",
+      "time": 123
+    }
+  ],
+  "stress": {
+    "total": 100,
+    "successful": 98,
+    "failed": 2,
+    "duration": 2500,
+    "avgTime": 25
+  }
+}
